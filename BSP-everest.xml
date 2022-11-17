@@ -96,5 +96,5 @@
     <sublayer path="meta-tpm" />
   </project>
 
-  <project name="EVerest/meta-everest" path="sources/meta-everest" remote="ssh.github" revision="hardknott"/>
+  <project name="EVerest/meta-everest" path="sources/meta-everest" remote="origin" revision="hardknott"/>
 </manifest>
