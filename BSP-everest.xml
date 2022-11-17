@@ -34,6 +34,7 @@
   <remote name="git.phytec" fetch="git://git.phytec.de" />
   <remote name="ssh.phytec" fetch="ssh://git@git.phytec.de" />
   <remote name="ssh.github" fetch="ssh://git@github.com"/>
+  <remote name="everest" fetch="https://github.com/EVerest"/>
 
   <default revision="hardknott" sync-j="2" remote="git.phytec" />
 
@@ -96,5 +97,5 @@
     <sublayer path="meta-tpm" />
   </project>
 
-  <project name="EVerest/meta-everest" path="sources/meta-everest" remote="origin" revision="hardknott"/>
+  <project name="meta-everest" path="sources/meta-everest" remote="everest" revision="hardknott"/>
 </manifest>
