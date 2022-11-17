@@ -14,7 +14,9 @@ Setup the yocto build environment:
 ```
 ./phyLinux init -u https://github.com/EVerest/repo-manifests
 ```
-Select 1,1,11 when prompted.
+
+You will be prompted for three choices.
+Select 1 for the first prompt,1  for the second and 11 on the third prompt.
 
 ```
 echo 'ACCEPT_FSL_EULA = "1"' >> build/conf/local.conf
