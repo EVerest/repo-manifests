@@ -13,6 +13,10 @@ Setup the yocto build environment:
 
 ```
 ./phyLinux init -u https://github.com/EVerest/repo-manifests
+```
+Select 1,1,11 when prompted.
+
+```
 echo 'ACCEPT_FSL_EULA = "1"' >> build/conf/local.conf
 . ./sources/poky/oe-init-build-env
 ```
