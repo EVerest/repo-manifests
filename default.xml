@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default sync-j="2"/>
+
+  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
+  <remote fetch="git://git.openembedded.org" name="openembedded"/>
+  <remote fetch="https://github.com" name="github"/>
+
+  <project remote="openembedded" name="meta-openembedded" path="sources/meta-openembedded" upstream="kirkstone" revision="50d4a8d2a983a68383ef1ffec2c8e21adf0c1a79"/>
+  <project remote="yocto" name="poky" path="sources/poky" upstream="kirkstone" revision="1cb13d24b592986a44fd653e083b7711513fc916"/>
+  <project remote="github" name="kraj/meta-clang" path="sources/meta-clang" upstream="kirkstone-clang12" revision="06ae2c043005c9b2630b93a3233f9927dcdd0a7a"/>
+  <project remote="github" name="meta-flutter/meta-flutter" path="sources/meta-flutter" upstream="kirkstone" revision="12ce87373f8b24d047e58ac393f19c38a835527b"/>
+  <project remote="github" name="EVerest/meta-everest" path="sources/meta-everest" upstream="kirkstone" revision="8910e0507feb0dd0f1e9105b285c8dc874e1ff35"/>
+</manifest>
